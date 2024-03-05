@@ -15,8 +15,8 @@ def bytemp(df):
     return temp_rent
 
 # import dataframe
-day_df = pd.read_csv('C:\\Users\\USER\\OneDrive\\Attachments\\Documents\\Submission\\Dashboard\\day_data.csv')
-hour_df = pd.read_csv('C:\\Users\\USER\\OneDrive\\Attachments\\Documents\\Submission\\Dashboard\\hour_data.csv')
+day_df = pd.read_csv('day_data.csv')
+hour_df = pd.read_csv('hour_data.csv')
 
 # Menyiapkan dataframe yang dikelompokkan
 byseason_df = byseason(day_df)
